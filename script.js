@@ -10,7 +10,7 @@
 
 const CONFIG = {
   // Ganti dengan nomor WhatsApp JoyChips (format internasional, tanpa tanda +)
-  WA_NUMBER: '6281229015842',
+  WA_NUMBER: '62881080247377',
 
   // Pesan default saat tidak ada produk spesifik dipilih
   WA_DEFAULT_MSG: 'Halo JoyChips, saya mau pesan!',
@@ -159,7 +159,7 @@ function setupCheckout() {
 
 function updateAllWaLinks() {
   var defaultLink = buildWaLink(CONFIG.WA_DEFAULT_MSG);
-  var linkIds = ['nav-wa-link','hero-wa-link','contact-wa-link','drawer-wa-link','footer-wa-link','float-wa-btn'];
+  var linkIds = ['nav-wa-link','hero-wa-link','contact-wa-link','drawer-wa-link','footer-wa-link','float-wa-btn','footer-social-wa'];
   linkIds.forEach(function(id) {
     var el = document.getElementById(id);
     if (el) el.href = defaultLink;
