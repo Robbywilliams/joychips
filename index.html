@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JoyChips - Keripik buah 100% asli tanpa pengawet dan pewarna. Tersedia Keripik Pisang (Manis, Asin, Coklat) dan Keripik Apel. 50g Rp19.000. Pesan via WhatsApp!">
+  <meta property="og:title" content="JoyChips - Small Bites, Big Joy">
+  <meta property="og:description" content="Camilan keripik buah 100% buah asli, tanpa pengawet, tanpa pewarna. Renyah, higienis, harga ramah mahasiswa.">
+  <meta property="og:image" content="images/joychips.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F5A822">
+  <title>JoyChips - Keripik Buah 100% Asli | Small Bites, Big Joy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="site-header" id="site-header" role="banner">
+  <div class="container">
+    <nav class="nav" role="navigation" aria-label="Navigasi utama">
+      <a href="#beranda" class="nav__brand" aria-label="JoyChips - ke halaman beranda">
+        <span class="nav__brand-joy">Joy</span><span class="nav__brand-chips">Chips</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="#beranda" class="nav__link">Beranda</a></li>
+        <li><a href="#produk" class="nav__link">Produk</a></li>
+        <li><a href="#tentang-kami" class="nav__link">Tentang Kami</a></li>
+        <li><a href="#kontak" class="nav__link">Cara Pesan</a></li>
+      </ul>
+      <a href="#" id="nav-wa-link" class="btn btn--gold nav__cta" target="_blank" rel="noopener noreferrer" aria-label="Pesan JoyChips via WhatsApp">Pesan Sekarang</a>
+      <button class="nav__hamburger" id="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobile-drawer">
+        <span class="hamburger__line" aria-hidden="true"></span>
+        <span class="hamburger__line" aria-hidden="true"></span>
+        <span class="hamburger__line" aria-hidden="true"></span>
+      </button>
+    </nav>
+  </div>
+  <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+  <div class="mobile-drawer" id="mobile-drawer" role="dialog" aria-label="Menu navigasi" aria-modal="true" hidden>
+    <button class="mobile-drawer__close" id="drawer-close" aria-label="Tutup menu navigasi">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <ul class="mobile-drawer__links" role="list">
+      <li><a href="#beranda" class="mobile-drawer__link">Beranda</a></li>
+      <li><a href="#produk" class="mobile-drawer__link">Produk</a></li>
+      <li><a href="#tentang-kami" class="mobile-drawer__link">Tentang Kami</a></li>
+      <li><a href="#kontak" class="mobile-drawer__link">Cara Pesan</a></li>
+    </ul>
+    <a href="#" id="drawer-wa-link" class="mobile-drawer__cta" target="_blank" rel="noopener noreferrer">
+      Pesan via WhatsApp
+    </a>
+    <div class="mobile-drawer__socials">
+      <a href="https://www.instagram.com/joychips_" class="mobile-drawer__social-link" target="_blank" rel="noopener noreferrer">Instagram @joychips_</a>
+      <a href="https://www.tiktok.com/@joy_chips3" class="mobile-drawer__social-link" target="_blank" rel="noopener noreferrer">TikTok @joy_chips3</a>
+    </div>
+  </div>
+</header>
+<main id="main-content">
+
+<section class="hero" id="beranda" aria-labelledby="hero-heading">
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <h1 class="hero__tagline" id="hero-heading">
+          <span class="hero__tagline-small">Small Bites,</span>
+          <span class="hero__tagline-big">Big Joy</span>
+        </h1>
+        <p class="hero__desc">Keripik buah renyah dari bahan buah asli, tanpa pengawet dan tanpa pewarna. Cocok menemani waktu belajar, kerja santai, dan kumpul bareng teman.</p>
+        <div class="hero__info-pills" aria-label="Info produk">
+          <span class="info-pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg> Kemasan 50g</span>
+          <span class="info-pill info-pill--gold" aria-label="Harga Rp19.000">Rp 19.000</span>
+          <span class="info-pill">Pisang &amp; Apel</span>
+        </div>
+        <div class="hero__ctas">
+          <a href="#" id="hero-wa-link" class="btn btn--gold btn--lg" target="_blank" rel="noopener noreferrer" aria-label="Pesan JoyChips via WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg> Pesan via WhatsApp
+          </a>
+          <a href="#produk" class="btn btn--outline btn--lg">Lihat Varian Rasa</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__img-frame">
+          <div class="hero__img-bg-circle" aria-hidden="true"></div>
+          <img src="images/joychips.png" alt="Kemasan standing pouch JoyChips - keripik buah 50g, 100% buah asli, tanpa pengawet, tanpa pewarna" class="hero__product-img" width="400" height="580" loading="eager" fetchpriority="high">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero__wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,36 C320,72 1120,0 1440,36 L1440,72 L0,72 Z" fill="#FAF3E8"/></svg>
+  </div>
+</section>
+
+<section class="section-produk" id="produk" aria-labelledby="produk-heading">
+  <div class="container">
+    <div class="section-header reveal-on-scroll">
+      <h2 class="section-title" id="produk-heading">Varian Produk</h2>
+      <p class="section-subtitle">Pilih keripik buah favoritmu. Semua dikemas dalam standing pouch 50g yang praktis dan mudah dibawa ke mana saja.</p>
+    </div>
+    <div class="produk-grid">
+      <article class="produk-card" id="card-pisang" aria-label="Produk Keripik Pisang JoyChips">
+        <div class="produk-card__img-wrapper">
+          <img src="images/joychips.png" alt="Kemasan JoyChips Keripik Pisang - tersedia rasa Manis, Asin, Coklat" class="produk-card__img" width="400" height="300" loading="lazy">
+          <div class="produk-card__img-badge">Keripik Pisang</div>
+        </div>
+        <div class="produk-card__body">
+          <div class="produk-card__header">
+            <h3 class="produk-card__name">Keripik Pisang</h3>
+            <span class="produk-card__price" aria-label="Harga Rp 19.000">Rp 19.000</span>
+          </div>
+          <p class="produk-card__weight">Netto 50g / Standing Pouch</p>
+          <p class="produk-card__desc">Renyah, familiar, dan hadir dalam tiga pilihan rasa yang pas untuk berbagai selera.</p>
+          <div class="produk-card__variants" role="group" aria-label="Pilih varian rasa Keripik Pisang">
+            <p class="produk-card__variants-label">Pilih Rasa</p>
+            <div class="variant-btns">
+              <button class="variant-btn variant-btn--active" data-product="Keripik Pisang" data-variant="Manis" aria-pressed="true">Manis</button>
+              <button class="variant-btn" data-product="Keripik Pisang" data-variant="Asin" aria-pressed="false">Asin</button>
+              <button class="variant-btn" data-product="Keripik Pisang" data-variant="Coklat" aria-pressed="false">Coklat</button>
+            </div>
+          </div>
+          <div class="produk-card__quantity">
+            <p class="produk-card__variants-label">Jumlah</p>
+            <div class="quantity-control">
+              <button class="qty-btn qty-btn--minus" data-product="pisang" aria-label="Kurangi jumlah">-</button>
+              <input type="number" class="qty-input" id="qty-pisang" value="1" min="1" max="99" aria-label="Jumlah Keripik Pisang">
+              <button class="qty-btn qty-btn--plus" data-product="pisang" aria-label="Tambah jumlah">+</button>
+            </div>
+          </div>
+          <button class="btn btn--gold produk-card__order-btn" id="pisang-add-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> Tambah ke Pesanan
+          </button>
+        </div>
+      </article>
+      <article class="produk-card" id="card-apel" aria-label="Produk Keripik Apel JoyChips">
+        <div class="produk-card__img-wrapper">
+          <img src="images/joychips.png" alt="Kemasan JoyChips Keripik Apel Original" class="produk-card__img" width="400" height="300" loading="lazy">
+          <div class="produk-card__img-badge produk-card__img-badge--green">Keripik Apel</div>
+        </div>
+        <div class="produk-card__body">
+          <div class="produk-card__header">
+            <h3 class="produk-card__name">Keripik Apel</h3>
+            <span class="produk-card__price" aria-label="Harga Rp 19.000">Rp 19.000</span>
+          </div>
+          <p class="produk-card__weight">Netto 50g / Standing Pouch</p>
+          <p class="produk-card__desc">Rasa ringan dengan karakter khas buah apel asli. Segar, renyah, cocok untuk camilan kapan saja.</p>
+          <div class="produk-card__variants" role="group" aria-label="Varian Keripik Apel">
+            <p class="produk-card__variants-label">Varian</p>
+            <div class="variant-btns">
+              <button class="variant-btn variant-btn--green variant-btn--active" data-product="Keripik Apel" data-variant="Original" aria-pressed="true">Original</button>
+            </div>
+          </div>
+          <div class="produk-card__quantity">
+            <p class="produk-card__variants-label">Jumlah</p>
+            <div class="quantity-control">
+              <button class="qty-btn qty-btn--minus" data-product="apel" aria-label="Kurangi jumlah">-</button>
+              <input type="number" class="qty-input" id="qty-apel" value="1" min="1" max="99" aria-label="Jumlah Keripik Apel">
+              <button class="qty-btn qty-btn--plus" data-product="apel" aria-label="Tambah jumlah">+</button>
+            </div>
+          </div>
+          <button class="btn btn--green produk-card__order-btn" id="apel-add-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> Tambah ke Pesanan
+          </button>
+        </div>
+      </article>
+    </div>
+    <div class="cart-summary" id="cart-summary" hidden>
+      <div class="cart-summary__content">
+        <h3 class="cart-summary__title">Pesanan Anda</h3>
+        <div class="cart-summary__items" id="cart-items"></div>
+        <div class="cart-summary__total">
+          <span>Total:</span>
+          <span class="cart-summary__total-price" id="cart-total">Rp 0</span>
+        </div>
+        <button class="btn btn--gold btn--lg" id="checkout-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg> Pesan via WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-about" id="tentang-kami" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about__inner">
+      <div class="about__text reveal-on-scroll">
+        <div class="section-label">Tentang Kami</div>
+        <h2 class="section-title section-title--left" id="about-heading">Camilan Buah dari Surabaya, untuk Semua</h2>
+        <p class="about__story">JoyChips lahir dari semangat mahasiswa di Universitas Ciputra, Citraland Surabaya untuk menghadirkan camilan buah yang praktis, lezat, dan terjangkau. Kami percaya bahwa momen ngemil bersama teman, saat fokus belajar, atau sekadar istirahat bisa lebih menyenangkan dengan keripik buah yang dibuat dari bahan asli.</p>
+        <p class="about__story">Setiap kemasan JoyChips dikemas rapi dalam standing pouch berzipper yang menjaga kerenyahan dan higienitas produk. Tidak ada campuran pengawet. Tidak ada pewarna buatan. Hanya buah asli yang diolah menjadi keripik renyah penuh rasa.</p>
+        <a href="#kontak" class="btn--outline-dark">Lihat Cara Pesan</a>
+      </div>
+      <div class="about__features">
+        <div class="feature-card">
+          <div class="feature-card__icon feature-card__icon--gold" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21l1.88.82.72-1.64C7.87 21.51 9.87 22 12 22c6.08 0 11-4.92 11-11 0-.44-.04-.88-.1-1.31L22 10c0-2-2-2-5-2zm-7 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+          </div>
+          <h3 class="feature-card__title">100% Buah Asli</h3>
+          <p class="feature-card__desc">Dipilih dari buah segar berkualitas, diproses menjadi keripik renyah tanpa bahan kimia tambahan.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon feature-card__icon--green" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <h3 class="feature-card__title">Tanpa Pengawet</h3>
+          <p class="feature-card__desc">Proses produksi bersih tanpa zat pengawet, aman dinikmati setiap hari tanpa rasa khawatir.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon feature-card__icon--gold" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+          </div>
+          <h3 class="feature-card__title">Tanpa Pewarna</h3>
+          <p class="feature-card__desc">Warna alami buah asli terjaga dari awal proses hingga keripik siap dikemas dan dinikmati.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon feature-card__icon--green" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3 class="feature-card__title">Kemasan Rapi</h3>
+          <p class="feature-card__desc">Standing pouch berzipper kedap udara, praktis dibawa ke mana saja tanpa khawatir tumpah atau melempem.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-kontak" id="kontak" aria-labelledby="kontak-heading">
+  <div class="container">
+    <div class="section-header reveal-on-scroll">
+      <h2 class="section-title section-title--light" id="kontak-heading">Cara Pesan</h2>
+      <p class="section-subtitle section-subtitle--light">Pesan JoyChips sangat mudah. Pilih varian, hubungi kami, dan camilan kamu segera disiapkan.</p>
+    </div>
+    <div class="order-steps" role="list" aria-label="Langkah pemesanan JoyChips">
+      <div class="order-step" role="listitem">
+        <div class="order-step__chip" aria-hidden="true">1</div>
+        <h3 class="order-step__title">Pilih Varian</h3>
+        <p class="order-step__desc">Cek produk di atas, pilih rasa favoritmu: Pisang Manis, Asin, Coklat, atau Apel Original.</p>
+      </div>
+      <div class="order-step__connector" aria-hidden="true"></div>
+      <div class="order-step" role="listitem">
+        <div class="order-step__chip" aria-hidden="true">2</div>
+        <h3 class="order-step__title">Chat WhatsApp</h3>
+        <p class="order-step__desc">Tekan tombol "Pesan Sekarang" di kartu produk, atau hubungi langsung via WA. Kami respons cepat.</p>
+      </div>
+      <div class="order-step__connector" aria-hidden="true"></div>
+      <div class="order-step" role="listitem">
+        <div class="order-step__chip" aria-hidden="true">3</div>
+        <h3 class="order-step__title">Terima Pesananmu</h3>
+        <p class="order-step__desc">Pesananmu kami proses dan kemas dengan rapi. Bisa diambil langsung atau kami antarkan sesuai kesepakatan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo" aria-label="JoyChips">
+          <span class="footer__logo-joy">Joy</span><span class="footer__logo-chips">Chips</span>
+        </div>
+        <p class="footer__tagline">Small Bites, Big Joy</p>
+        <p class="footer__desc">Keripik buah 100% asli, tanpa pengawet, tanpa pewarna. Dari mahasiswa Universitas Ciputra untuk para pencinta camilan di Surabaya.</p>
+      </div>
+      <nav aria-label="Link cepat footer">
+        <h4 class="footer__nav-title">Menu</h4>
+        <ul class="footer__nav-list" role="list">
+          <li><a href="#beranda" class="footer__nav-link">Beranda</a></li>
+          <li><a href="#produk" class="footer__nav-link">Produk</a></li>
+          <li><a href="#tentang-kami" class="footer__nav-link">Tentang Kami</a></li>
+          <li><a href="#kontak" class="footer__nav-link">Cara Pesan</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h4 class="footer__nav-title">Hubungi Kami</h4>
+        <ul class="footer__contact-list" role="list">
+          <li><a href="#" id="footer-wa-link" class="footer__nav-link" target="_blank" rel="noopener noreferrer">WhatsApp Order</a></li>
+          <li><a href="https://www.instagram.com/joychips_" class="footer__nav-link" target="_blank" rel="noopener noreferrer">Instagram @joychips_</a></li>
+          <li><a href="https://www.tiktok.com/@joy_chips3" class="footer__nav-link" target="_blank" rel="noopener noreferrer">TikTok @joy_chips3</a></li>
+          <li class="footer__address">UC Boulevard, Citraland, Surabaya Barat</li>
+        </ul>
+        <div class="footer__social-bar" role="list" aria-label="Media sosial JoyChips">
+          <a href="https://www.instagram.com/joychips_" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@joy_chips3" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+          <a href="https://wa.me/6281229015842" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; 2026 JoyChips. Semua hak dilindungi.</p>
+      <p class="footer__made">Camilan buah asli dari Surabaya dengan sepenuh hati.</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" id="float-wa-btn" class="float-wa" target="_blank" rel="noopener noreferrer" aria-label="Pesan JoyChips via WhatsApp (tombol mengambang)">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
